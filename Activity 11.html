@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML BASICS</title>
+ <link rel="stylesheet" href="styles.css">
+ <style>
+    body{
+      font-fmily: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+header{
+  background-color: #4CAF50;
+   color: white;
+   padding: 1em 0;
+   text-align: center;
+}
+main{
+  padding: 20px;
+}
+footer{
+  background-color: #f1f1f1;
+  color: #666;
+  text-align: center;
+  padding:10px 0;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+/*style for hover information*/
+.hover-info{
+  position:relative;
+  cursor:help;
+  border-bottom:1px dotted #4CAF50;
+}
+.hover-info .tooltip-text{
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color:#fff;
+  text-align:center;
+  border-radius:6px;
+  padding:5px 0;
+  position: absolute;
+  z-index:1;
+  bottom:125%;
+  left:50%;
+  margin-left:-100px;
+  opacity:0;
+  transition:opacity 0.3s;
+}
+.hover-info .tooltip-text::after{
+  content: "";
+  position:absolute;
+  top:100%;
+  left:50%;
+  margin-left:-5px;
+  border-width:5px;
+  border-style:solid;
+  border-color:#555  transparent transparent transparent;
+}
+
+.hover-info:hover .tooltip-text{
+  visibility:visible;
+  opacity:1;
+}
+a{
+  color:#007bff;
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:underline;
+}
+
+  </style>
+  
+</head>
+<body>
+
+<h>WEB DESIGN DEVELOPEMENT AND ADMINISTRATION </h>
+<h1>HTML BASICS</h1>
+<P>
+<A HREF="Activity 11.html">Activity 11</A><BR>
+<A HREF="Activity 8.html">Activity 8</A><BR>
+<A HREF="Activity 5.html">Activity 5</A><BR>
+<A HREF="Activity 6.html">Activity 6</A><BR>
+<A HREF="start.html">Activity 1</A><BR>
+  </P>
+  <h2>Exploring Biodiversity</h2>
+  <p>
+    <span class="hover-info">Wildlife
+      <span class="tooltip-text">Wildlife refers to non-domesticated animal species, but <BR>
+      has come to include all organisms that grow or live wild in an area without being introduced <BR>
+        by humans. 
+      </span>
+    </span>
+    encompasses all non-domesticated plants, animals, and other organisms. The <BR>
+      conservation of these natural resources is vital for maintaining the <a
+      href="https://en.wikipedia.org/wiki/Ecosystem" target="_blank" title="link to Ecosystem on 
+      vulnerable habitats like the <a href=https://en.wikipedia.org/wiki/Amazon_rainforest"
+      target="_blank" title="Link to Amazon Rainforest on wikipedia ">Amazon rainforest</a>,face
+      significant threats from human activity. Protecting their habitast ensures biodiversity and 
+      supports complex food webs.
+  </p>
+  <p>
+    One crucial aspect of this is the preservation of
+    <span class="hover-info">endangered
+      species
+      <span class="tooltip-text"An endangered species is a type of organism that is
+      threatened by extinction
+    </span>
+  </span>
+  </p>

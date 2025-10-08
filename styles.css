@@ -1,0 +1,66 @@
+/* styles.css file */
+
+body {
+    background-color:brown; /* Light blue background */
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #0077cc; /* Blue heading */
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+/* Default body background and text colors */
+body {
+  background-color: #f0f8ff; /* light blue */
+  color: #333333; /* dark gray */
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+
+/*Activity 11*/
+/* Change how Link colors appear*/
+a:link {
+  color: #0066cc; /* blue */
+  transition: color 0.3s ease;
+}
+
+a:visited {
+  color: #551a8b; /* purple */
+}
+
+a:active {
+  color: #ff0000; /* red */
+}
+
+/* Interactive effects on hover - make links highlight */
+a:hover {
+  color: #ff6600; /* orange */
+  text-decoration: underline;
+}
+
+/* Interactive body background and text color changes on hover */
+body:hover {
+  background-color: #fffacd; /* light yellow */
+  color: #000080; /* navy blue */
+}
